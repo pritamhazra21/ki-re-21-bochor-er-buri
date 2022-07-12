@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.99));
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.99));
 
 }
 
@@ -19,7 +19,7 @@
 
   content: "";
   position: absolute;
-  background: url("../img/Cosmic\ Thoughts.png") no-repeat center center/cover;
+  background: url("../img/main.png") no-repeat center center/cover;
   height: 750px;
   left: 0px;
   width: 100%;
@@ -38,7 +38,55 @@
 
 #wishinfo {
   padding: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   font-size: 16px;
   color: #ffffff;
+}
+
+
+.secondsec {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(255, 255, 255));
+
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+}
+
+.sndpara{
+  padding: 0px 60px 50px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.horailine{
+  height: 8px;
+  width: 100px;
+  background-color: rgb(62, 166, 226);
+  margin: 50px;
+}
+
+img{
+  width: 100%;
+  margin: 30px 0;
+
+}
+
+a{
+  padding: 20px;
+  margin: 15px;
+  border: none;
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: #000;
+  text-align: center;
+  padding: 7% 15%;
+  color:#ffffff;
 }
