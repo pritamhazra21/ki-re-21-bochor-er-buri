@@ -77,11 +77,12 @@ img{
 
 a{
   padding: 20px;
-  margin: 15px;
+  margin: 15px 0 30px;
   border: none;
   background-color: black;
   color: wheat;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 #footer {
